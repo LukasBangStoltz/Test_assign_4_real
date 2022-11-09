@@ -1,5 +1,5 @@
 from behave import *
-import tic_tac_toe
+import src.tic_tac_toe as tic_tac_toe
 
 @given('player x turn')
 def step_impl(context):

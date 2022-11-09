@@ -1,13 +1,13 @@
 #Pam Qian 2016 Fall CS 112 Python Midterm Project II
 # Tic Tack Toe 
 
-def main():
-# The main function
-    introduction = intro()
-    board = create_grid()
-    pretty = printPretty(board)
-    symbol_1, symbol_2 = sym()
-    full = isFull(board, symbol_1, symbol_2) # The function that starts the game is also in here.
+# def main():
+#     # The main function
+#     introduction = intro()
+#     board = create_grid()
+#     pretty = printPretty(board)
+#     symbol_1, symbol_2 = sym()
+#     full = isFull(board, symbol_1, symbol_2) # The function that starts the game is also in here.
     
 
     
@@ -113,7 +113,7 @@ def isFull(board, symbol_1, symbol_2):
         print("Game over.")
         
     # This is function gives a report 
-    report(count, winner, symbol_1, symbol_2)
+    return report(count, winner, symbol_1, symbol_2)
 
 
 
@@ -146,7 +146,7 @@ def isWinner(board, symbol_1, symbol_2, count):
    
         elif (board[row][0] == board[row][1] == board[row][2] == symbol_2):
             winner = False
-            print("Player " + symbol_2 + ", you won!")
+            return ("Player " + symbol_2 + ", you won!")
             
             
     # Check the columns
@@ -178,10 +178,8 @@ def isWinner(board, symbol_1, symbol_2, count):
     return winner
     
 
-
 def illegal(board, symbol_1, symbol_2, row, column):
-    print("The square you picked is already filled. Pick another one.")
-
+    return ("The square you picked is already filled. Pick another one.")
     
 def report(count, winner, symbol_1, symbol_2):
     print("\n")
@@ -194,4 +192,4 @@ def report(count, winner, symbol_1, symbol_2):
         print("There is a tie. ")
 
 # Call Main
-main()
+#main()
