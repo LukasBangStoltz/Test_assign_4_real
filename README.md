@@ -1,5 +1,11 @@
 # Test Assignment 4
 
+#### Made by: ####
+
+* Lukas Bang Stoltz-Andersen, cph-ls369@cphbusiness.dk
+* Sumit Dey, cph-sd152@cphbusiness.dk
+
+
 ## Moq
 ### How do you verify that a mock was called?
 We use Moq's _mock.Verify() method to verify that the mock was called
