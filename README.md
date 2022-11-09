@@ -22,3 +22,5 @@ As seen in the photo, we use the Verify() method to specify that the method is t
 We use the Is.itAny to define what type the argument of the method can use, and not checking the actual value compared to the previous example
 
 ![alt text](Pictures/predicate.PNG "Title")
+
+mut.py --target src/ --unit-test test/ -m
