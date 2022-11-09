@@ -29,4 +29,6 @@ We use the Is.itAny to define what type the argument of the method can use, and 
 
 ![alt text](Pictures/predicate.PNG "Title")
 
-mut.py --target src/ --unit-test test/ -m
+### Coverage Report
+### Mutation Test
+### Static analysis
