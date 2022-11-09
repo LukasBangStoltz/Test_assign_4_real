@@ -1,5 +1,11 @@
 # Test Assignment 4
 
+#### Made by: ####
+
+* Lukas Bang Stoltz-Andersen, cph-ls369@cphbusiness.dk
+* Sumit Dey, cph-sd152@cphbusiness.dk
+
+
 ## Moq
 ### How do you verify that a mock was called?
 We use Moq's _mock.Verify() method to verify that the mock was called
@@ -22,3 +28,7 @@ As seen in the photo, we use the Verify() method to specify that the method is t
 We use the Is.itAny to define what type the argument of the method can use, and not checking the actual value compared to the previous example
 
 ![alt text](Pictures/predicate.PNG "Title")
+
+### Coverage Report
+### Mutation Test
+### Static analysis
