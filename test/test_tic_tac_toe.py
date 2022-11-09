@@ -1,5 +1,4 @@
 import unittest
-from unittest.mock import patch
 import sys
 sys.path.insert(0, '../src')
 import tic_tac_toe
