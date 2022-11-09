@@ -30,8 +30,8 @@ We use the Is.itAny to define what type the argument of the method can use, and 
 ![alt text](Pictures/predicate.PNG "Title")
 
 ### Coverage Report
-![alt text](Pictures/CoverageReport.PNG "Title")
+![alt text](Pictures/CoverageReport.png "Title")
 ### Mutation Test
-![alt text](Pictures/Mutation.PNG "Title")
+![alt text](Pictures/Mutation.png "Title")
 ### Static analysis
-![alt text](Pictures/Staticanalysis.PNG "Title")
+![alt text](Pictures/Staticanalysis.png "Title")
